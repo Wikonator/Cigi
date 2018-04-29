@@ -3,7 +3,8 @@ const router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Poviem ti pribeh .online' });
+    console.log("I shot the sheriff");
+    res.render('index', { title: 'Poviem ti pribeh .online' });
 });
 
 module.exports = router;
