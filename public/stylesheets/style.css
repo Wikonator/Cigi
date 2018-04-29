@@ -1,0 +1,52 @@
+body {
+  padding: 50px;
+  color: azure;
+  background-color: black;
+
+}
+
+.frame{
+    margin-top: 20%;
+}
+
+.first {
+    text-align: center;
+    margin-top: 4%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 5px;
+    }
+    .first {
+        text-align: center;
+        margin-top: 4%;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+}
+
+.heading {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+    font-family: Caveat;
+}
+
+p {
+  font: 20px "Lucida Grande", Arial, sans-serif;
+}
+
+#last {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    height: 202px;
+}
+
+a {
+  color: #00B7FF;
+}
