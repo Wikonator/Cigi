@@ -9,6 +9,9 @@ const usersRouter = require('./routes/users');
 
 const app = express();
 
+process.title = myApp;
+
+
 //this needs saving
 
 // view engine setup
